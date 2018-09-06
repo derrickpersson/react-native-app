@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const ENV = require('dotenv').load();
-const sequelize = new Sequelize(ENV.DBNAME, ENV.DBUSER, ENV.DBPASSWORD, {
+export const sequelize = new Sequelize(ENV.DBNAME, ENV.DBUSER, ENV.DBPASSWORD, {
   host: 'localhost',
   dialect: 'postgres',
   operatorsAliases: false,
