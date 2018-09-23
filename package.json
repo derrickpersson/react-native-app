@@ -11,7 +11,6 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "react-native-scripts start",
-    "server": "node server/server.js",
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
@@ -21,17 +20,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "bcrypt": "^3.0.0",
     "dotenv": "^6.0.0",
     "expo": "^27.0.1",
-    "express": "^4.16.3",
-    "express-graphql": "^0.6.12",
-    "graphql": "^14.0.0",
-    "mobx-react": "^5.2.6",
-    "pg": "^7.4.3",
-    "pg-hstore": "^2.3.2",
     "react": "16.3.1",
-    "react-native": "~0.55.2",
-    "sequelize": "^4.38.0"
+    "react-native": "~0.55.2"
   }
 }
